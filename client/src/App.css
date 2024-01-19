@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  animation: App-logo-fade infinite 3s ease-in-out;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-fade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* 在您的 CSS 文件中 */
+.book-cover {
+  width: 100px; /* 或其他所需尺寸 */
+  height: 100px;
+  margin: 10px 0;
+}
+/* App.css 或其他 CSS 文件 */
+.large-button {
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  /* 可以添加其他样式，如背景颜色、边框等 */
+}
+/* styles.css */
+
+/* 表格样式 */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* 表头样式 */
+.table thead th {
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 10px;
+  text-align: left;
+}
+
+/* 表格行样式 */
+.table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* 表格单元格样式 */
+.table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
