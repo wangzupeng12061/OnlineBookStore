@@ -2,7 +2,7 @@
 // /config/dbConfig.js
 const Sequelize = require('sequelize');
 
-const db = new Sequelize('book', 'root', 'wangzupeng1226!', {
+const db = new Sequelize('book', 'root', 'wzp', {
   host: 'localhost',
   dialect: 'mysql',
   // 其他配置...
